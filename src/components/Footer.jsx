@@ -2,7 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <Footer>
+        <>
+        <div className="footer">
         <div>
             <h1>ProjectONE.</h1>
             <p>@all rights reserved by Yash</p>
@@ -17,7 +18,8 @@ const Footer = () => {
 
             </div>
         </div>
-        </Footer>
+        </div>
+        </>
     );
 }
 
